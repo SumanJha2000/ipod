@@ -1,0 +1,19 @@
+{
+  "name": "ipod",
+  "version": "1.0.0",
+  "description": "-An ipod App with Multiple features like songs,settings,games and coverflow.\r -Zingtouch library has been used to control the switching in menu while rotating the mouse over the menu bar with center button\r to select specific feature.\r -You can play songs and control them using play and pause features.",
+  "main": "index.js",
+  "homepage": "https://SumanJha2000.github.io/ipod.git",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "zingtouch": "^1.0.6",
+   
+  }
+}
